@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	padding: 2%;
+	width: 40%;
+	
+	font: normal 100%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+.circle {
+	margin: 10% auto;
+	height: 250px;
+	width: 250px;
+	
+	background-color: #FC3;
+	border: 10px solid #000;
+	
+	-webkit-border-radius: 175px;
+	-moz-border-radius: 175px;
+	border-radius: 175px;
+	
+	font: bold 1100%/1.25 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+label {
+	padding-right: .5%
+}
+
+button {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 95%;
+}
+
+#properties, #color {
+	margin-right: 2%;
+	background-color:rgba(255,255,204,.4);
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 95%;
+}
+
+#hide-show {
+	float: right;
+}
